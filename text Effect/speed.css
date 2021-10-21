@@ -1,0 +1,36 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body{
+     justify-content: center;
+     align-items: center;
+     background-color: coral;
+     display: flex;
+     flex-direction: column;
+     height: 100vh;
+     overflow: hidden;
+}
+div{
+     position: absolute;
+     bottom: 20px;
+     background-color: rgba(0, 0, 0,0.4);
+     padding: 10px 20px;
+     font-size: 18px;
+     color: white;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input{
+     width: 50px;
+     padding: 5px;
+     border: none;
+     background-color: rgb(250, 164, 132);
+}
+input:focus{
+     outline: none;
+}
+h1{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
